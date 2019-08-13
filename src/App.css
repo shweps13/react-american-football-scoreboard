@@ -78,6 +78,15 @@
   justify-content: space-around;
   place-items: center;
   height: 20rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #ff2d2b; */
+  width: 95%;
 }
 
 .down,
@@ -88,6 +97,7 @@
   flex-direction: column;
   justify-content: space-around;
   place-items: center;
+
 }
 
 .down__value,
